@@ -1,0 +1,74 @@
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+  background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bg.jpg)
+  no-repeat center center fixed ;
+  background-size: cover;
+  background-position: center;
+  position:static;
+}
+  #results {
+    display:none;
+  }
+
+  img {
+
+    border-radius: 100px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 100%;
+    display: block;
+   
+  }
+
+  img:hover {
+    opacity: .8;
+  }
+  
+  input:hover , select:hover , textarea:hover{
+    background-color:rgba(238, 0, 0, 0.171) ;
+    transition:  all .5s ease 0;
+
+    
+   
+}
+
+[Type='number'] , input {
+    
+  border: none;
+  border-bottom:2px  rgba(10, 0, 0, 0.37) solid;
+  border-radius: 10px;
+  background: none;
+  outline: none !important;
+  color:gold;
+  padding-left: 20px;
+  
+  
+
+}
+
+.glass {
+  background: linear-gradient(to right bottom, rgba(225,225,225,0.7),rgba(225,225,225,0.3)) ;
+  
+  /* display: flex; */
+  margin: 20px auto;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  text-align: left;
+  padding: 10px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+
+}
+
+h1 , h5  {
+  text-align: center;
+}
+
+span {
+  margin-right: 10px;
+}
